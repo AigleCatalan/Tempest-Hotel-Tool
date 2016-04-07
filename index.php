@@ -3,7 +3,7 @@
    
  <head>
   
-  <title> jquery Eddy </title>
+  <title> jquery Title </title>
   <!--Beginn of Bootsrap bibliothek  06.01.2016 -->
    <!--<meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
