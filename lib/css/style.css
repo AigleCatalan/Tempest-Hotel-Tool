@@ -1,0 +1,139 @@
+
+body {
+      background:#F6F6F6;
+	  font:normal 0.9em Arial; 
+	  margin:0; padding:0; 
+	  padding-bottom:40px;
+	}
+
+h2 {
+   text-align: center;
+   margin-top: 20px; 
+  }
+
+
+p {  
+   margin-top: 40px; 
+   position:relative;
+ }
+ 
+ #galerie{  
+   background-color : #de8a82;
+   width:700px;
+   margin: 5px 50px 0px 250px ;
+   position:relative;
+   height:250px;
+   border-radius: 45px;
+   border:  1px solid #ccc; 
+   overflow:hidden; /*cache les autres photos se presentant hors de ce div*/   
+ }
+ 
+  #slider { 
+	position:absolute;
+	height:250px;
+	width:700px;
+	z-index:1;
+}
+
+h3{ 
+	text-align: center;
+	color: white; 
+	text-transform: uppercase;
+}
+ 
+
+h3 span{ 
+   position: absolute;
+   z-index:2;
+   font: bold 15px/50px Helvetica,Sans-Serif; 
+   letter-spacing: 1px;  
+   background: rgb(0, 0, 0); 
+   background: rgba(0, 0, 0, 0.6);
+   width: 700px; 
+   height: 150px;
+   margin : 200px 0px 0 -350px;
+   
+}
+
+/*--- Debut du formulaire--*/
+
+.form{
+
+}
+
+.prime{
+
+   background-color : #8d8d8e;
+   width:700px;
+   margin: 5px 50px 0px 250px ;
+   position:relative;
+   height:300px;
+   border-radius: 40px;
+
+}
+
+
+sup {
+	color: red;
+    font-size: 10px;
+	margin: 0 0 0 0px;
+	
+}
+
+
+legend{
+
+margin: 0 0 0 20px;
+
+}
+
+label
+{
+	width: 100px; /* Cette largeur sert d’exemple, vous pouvez la modifier si vous voulez. */
+    display:block;/* La balise devient de type block. car sans celle ci la balise restera de type inline*/
+	float: left; /*le type block ci dessus cause un retour a ligne du label mais avec cette propriete ce retour est evite*/
+	color: black;
+}
+
+input,textarea{
+   size: 30px;
+   border-radius: 5px;
+   margin : 0 15 15 15px;
+}
+#envoyer{
+ margin : 0 0 0 115px;
+}
+.curseur{
+  
+  cursor:pointer;
+}
+
+
+/*--- Fin du formulaire --*/
+
+#traitement{
+
+background-color : #8d8d8e;
+   width:700px;
+   margin: 0px 0px 0px 255px ;
+   position: relative;
+   height:150px;
+   border-radius: 40px;
+}
+
+#traitement p,h4{
+
+text-align: auto;
+margin : 25 0 0 25px;
+
+}
+.error{
+
+  color:red;
+   display:inline;
+	position:absolute;
+  margin : 0 0 0 0px;
+ 
+}
+
+
